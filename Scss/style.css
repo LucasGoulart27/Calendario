@@ -38,10 +38,13 @@ body {
   width: 50px;
   height: 50px;
   cursor: pointer;
+  border: none;
   border-radius: 1rem;
-  background-color: #eee;
-  border: 1px solid #ccc;
-  font-size: 1rem;
+  background-color: dodgerblue;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Semanas, .Dias {
