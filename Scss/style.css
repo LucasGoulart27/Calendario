@@ -15,7 +15,8 @@ body {
 }
 
 .Calendario {
-  width: 40%;
+  width: 34%;
+  padding: 0.2rem;
   border-radius: 1rem;
   background-color: #fff;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
@@ -40,20 +41,32 @@ body {
   border-radius: 1rem;
   background-color: #eee;
   border: 1px solid #ccc;
+  font-size: 1rem;
 }
 
-.Semanas {
+.Semanas, .Dias {
   width: 100%;
-  padding: 1rem;
+  padding: 0.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1rem;
 }
-.Semanas span {
+.Semanas span, .Dias span {
   width: 50px;
   height: 50px;
-  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
   border: 1px solid #ccc;
   background-color: #eee;
+}
+
+/*Responsividade*/
+@media screen and (max-width: 768px) {
+  .Calendario {
+    width: 90%;
+  }
 }/*# sourceMappingURL=style.css.map */
